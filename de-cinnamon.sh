@@ -2,6 +2,7 @@
 
 #Get the necessary components
 apt-get update
+apt-get full-upgrade
 apt-get install udisks2 -y
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
